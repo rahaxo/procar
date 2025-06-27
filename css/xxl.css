@@ -1,0 +1,140 @@
+header{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+header a{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    padding: 20px 0px;
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+}
+header a:hover{
+    background-color: gray;
+    color: black;
+    font-size: larger;
+    border-radius: 15px;
+}
+
+/* start nav css */
+/* start swiper css  */
+.wrapper nav{
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+}
+.wrapper nav .swiper1 img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+/* end swiper css */
+/* start products css */
+.wrapper nav .pro{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    height: auto;
+    margin-top: 20px;
+}
+.wrapper nav .pro .one{
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+}
+.wrapper nav .pro .one .o1{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px;
+    background-color: #262626;
+    width: 30%;
+    gap: 20px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+.wrapper nav .pro .one .o1:hover{
+    box-shadow: 0px 0px 30px rgb(199, 187, 187);
+}
+.wrapper nav .pro .one .o1 img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.wrapper nav .pro .one .o1 p{
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+.wrapper nav .pro .one .o1 a{
+    background-color: white;
+    padding: 3px 15px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 9px;
+    transition: 300ms;
+}
+.wrapper nav .pro .one .o1 a:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+/* end products css */
+/* end nav css */
+/* start footer css */
+.wrapper footer{
+    overflow: hidden;
+    width:100%;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    flex-flow: row;
+    padding: 20px 1px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.wrapper footer .f{
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    text-transform: capitalize;
+    color: white;
+    font-size: small;
+    font-weight: lighter;
+    line-height: 16px;
+    gap: 10px;
+}
+.wrapper footer svg{
+    width: 15px;
+    height: 15px;
+    fill: white;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.wrapper footer a{
+    color: white;
+}
+.wrapper footer a:hover{
+    color: gray;
+    fill: gray;
+    stroke: gray;
+}
+.wrapper footer svg:hover{
+    color: gray;
+    fill: gray;
+    stroke: gray;
+}
+/* end footer css */
