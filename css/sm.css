@@ -121,6 +121,7 @@ header a:hover{
     width: 15px;
     height: 15px;
     fill: white;
+    stroke: white;
     position: relative;
     top: 5px;
     cursor: pointer;
